@@ -1,0 +1,62 @@
+{
+  "name": "News",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@vietkidz/rn-sliding-up-panel": "^1.2.1",
+    "email-validator": "^2.0.4",
+    "firebase": "^6.1.0",
+    "native-base": "^2.12.1",
+    "random-string": "^0.2.0",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-animatable": "^1.3.2",
+    "react-native-autoheight-webview": "^1.1.3",
+    "react-native-button": "^2.4.0",
+    "react-native-device-info": "^2.1.2",
+    "react-native-facebook-login": "^1.6.2",
+    "react-native-floating-action": "^1.17.0",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-gifted-chat": "^0.9.3",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-material-tabs": "^3.8.1",
+    "react-native-modal": "^11.2.0",
+    "react-native-optimized-flatlist": "^1.0.4",
+    "react-native-popup-dialog": "^0.18.3",
+    "react-native-progress": "^3.6.0",
+    "react-native-push-notification": "^3.1.3",
+    "react-native-render-html": "^4.1.2",
+    "react-native-scl-alert": "^1.2.1",
+    "react-native-simple-store": "^2.0.0",
+    "react-native-size-matters": "^0.2.1",
+    "react-native-sticky-header-footer-scroll-view": "^2.1.3",
+    "react-native-svg": "^9.5.1",
+    "react-native-swipe-gestures": "^1.0.3",
+    "react-native-thumbnail-video": "^0.1.2",
+    "react-native-vector-icons": "^6.5.0",
+    "react-native-video": "^4.4.1",
+    "react-native-video-controls": "^2.2.3",
+    "react-native-webview-autoheight": "^1.0.6",
+    "react-native-youtube": "^2.0.0-beta",
+    "react-navigation": "^3.11.0",
+    "rn-sliding-up-panel": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
